@@ -55,6 +55,12 @@ npm run dev
 - Frontend: `http://localhost:5173`
 - Backend API: `http://localhost:4000/api/ping`
 
+## GitHub Pages deployment
+
+This project includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds the frontend and deploys `frontend/dist` to the `gh-pages` branch.
+
+To use Pages, enable GitHub Pages for the `gh-pages` branch in repository settings.
+
 ## Default credentials
 
 - Email: `admin@novasalud.com`
